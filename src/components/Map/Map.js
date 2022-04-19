@@ -66,6 +66,7 @@ const Map = ({
                   {/* a fall back image if there is no image for the resturant */}
                   <img
                     className={classes.pointer}
+                    style={{ width: "80px", height: "60px" }}
                     src={
                       place.photo
                         ? place.photo.images.large.url
