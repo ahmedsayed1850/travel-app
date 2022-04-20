@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<h1 align="center">Travel Advisor App<a href="https://travel-app-one.vercel.app//">Live Demo</a></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Project Preview
 
-In the project directory, you can run:
+![](https://i.ibb.co/0cFqQTQ/localhost-3000-1.jpg)
 
-### `npm start`
+### Info
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+to start this project `git clone [this-git-repo]`
+install all dependiencies by `npm i`
+to start this project `npm start`
+if you want to run it for production `npm run build`
+change API keys with your own this for test only not built for production cases
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project
 
-### `npm test`
+ravel Application using Google Maps. With Geolocation, Google Maps
+API, Fetching restaurants, hotels, and attractions based on the location
+from specialized Rapid APIs, data filtering, and much more
+Advanced React Concepts, Ref Creating user interface using MUI
+Fetching Multiple libraries from RapidAPI
+ __[Travel Advisor App](https://travel-app-one.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Folder Structure
 
-### `npm run build`
+- Home
+   - [README.md](README.md)
+   - [node\_modules](node_modules)
+   - [package\-lock.json](package-lock.json)
+   - [package.json](package.json)
+   - __public__
+     - [favicon.ico](public/favicon.ico)
+     - [index.html](public/index.html)
+     - [logo192.png](public/logo192.png)
+     - [logo512.png](public/logo512.png)
+     - [manifest.json](public/manifest.json)
+     - [robots.txt](public/robots.txt)
+   - __src__
+     - [App.css](src/App.css)
+     - [App.js](src/App.js)
+     - [App.test.js](src/App.test.js)
+     - __api__
+       - [index.js](src/api/index.js)
+     - __components__
+       - __List__
+         - [List.js](src/components/List/List.js)
+         - [styles.js](src/components/List/styles.js)
+       - __Map__
+         - [Map.js](src/components/Map/Map.js)
+         - [mapStyles.js](src/components/Map/mapStyles.js)
+         - [styles.js](src/components/Map/styles.js)
+       - __Nav__
+         - [Nav.js](src/components/Nav/Nav.js)
+         - [styles.js](src/components/Nav/styles.js)
+       - __PlaceDetails__
+         - [PlaceDetails.js](src/components/PlaceDetails/PlaceDetails.js)
+         - [styles.js](src/components/PlaceDetails/styles.js)
+     - [index.css](src/index.css)
+     - [index.js](src/index.js)
+     - [logo.svg](src/logo.svg)
+     - [reportWebVitals.js](src/reportWebVitals.js)
+     - [setupTests.js](src/setupTests.js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
