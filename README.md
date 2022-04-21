@@ -1,4 +1,4 @@
-<h1 align="center">Travel Advisor App<a href="https://travel-app-one.vercel.app//">Live Demo</a></h1>
+<h1 align="center">Travel Advisor App <a href="https://travel-app-one.vercel.app/">Live Demo</a></h1>
 
 
 ### Project Preview
@@ -15,7 +15,7 @@ change API keys with your own this for test only not built for production cases
 
 ### Project
 
-ravel Application using Google Maps. With Geolocation, Google Maps
+Travel Application using Google Maps. With Geolocation, Google Maps
 API, Fetching restaurants, hotels, and attractions based on the location
 from specialized Rapid APIs, data filtering, and much more
 Advanced React Concepts, Ref Creating user interface using MUI
