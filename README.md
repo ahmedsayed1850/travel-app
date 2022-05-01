@@ -21,6 +21,11 @@ from specialized Rapid APIs, data filtering, and much more
 Advanced React Concepts, Ref Creating user interface using MUI
 Fetching Multiple libraries from RapidAPI
  __[Travel Advisor App](https://travel-app-one.vercel.app/)
+ 
+ ### Ract Google Maps
+ react-google-maps provides "a set of React components wrapping the underlying Google Maps JavaScript API v3 instances". It is well documented and provides many examples: it shows code to display a single info window and toggle open/close within a HOC. Extrapolating this to multiple markers ends up open and closing all of them at once. In this project I wanted to open the InfoBoxes individually and also have hold the information of the active location within a parent component. To solve this active states were stored in App.js and an event handler was passed down to the map component. My solution can be found at:
+
+My StackOverflow Answer to solve single InfoWindow display toggle
 
 ### Folder Structure
 
